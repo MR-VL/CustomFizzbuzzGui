@@ -1,0 +1,17 @@
+body{
+  background-image: url("src/Assets/bubbles.gif");
+
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top:10vh;
+  margin:0;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body{
+    padding-top: 5vh;
+  }
+}
