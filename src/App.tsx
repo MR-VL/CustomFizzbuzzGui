@@ -8,7 +8,7 @@ function App() {
     const[divisor2, setDivisor2] = useState(5);
     const[word1, setWord1] = useState("Fizz");
     const[word2,setWord2] = useState("Buzz")
-    const [output, setOutput] = useState("");
+    const [output, setOutput] = useState<React.ReactNode>(null);
 
 
 
